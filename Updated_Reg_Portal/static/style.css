@@ -1,0 +1,221 @@
+body{
+	font-family: verdana;
+	background-color: #f1f1f1;
+	padding-bottom: 60px;
+	position: relative;
+	min-height: 100vh;
+
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header,footer{
+	
+	background-color: lightslategray;
+	width: 100%;
+	color: white;
+}
+
+header{
+	height: 10vh;
+} 
+header h2 {
+	position: absolute;
+	left: 2%;
+	top: 20px;
+}
+main{
+	margin: 20px auto;
+	padding: 30px,20px;
+	width: 60vw;
+}
+
+article{
+
+	background-color: white;
+	color: black;
+	padding: 20px;
+	margin-bottom: 20px;
+
+}
+
+article p{
+	margin-top: 16px;
+	line-height: 24px;
+}
+
+article h4{
+	margin-top: 16px;
+}
+article ol{
+	padding: 20px;
+}
+
+
+.nav{
+	position: absolute;
+	top: 20px;
+	right: 20%;
+}
+
+.nav button{
+	margin-right: 5px;
+	border-radius: 5px;
+	background-color: orange;
+	font-size: 24px;
+	padding: 5px 10px;
+}
+
+.Register{
+    position: absolute;
+    right: 15%;
+    top: 20px;
+    padding: 10px;
+    background-color: red;
+    border-radius:  5px;
+    text-decoration: none;
+}
+
+.Login{
+    position: absolute;
+    background-color: red;
+    right: 10%;
+    top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.Register a{
+    text-decoration: none;
+    color: white;
+}
+
+.Login a{
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    position: absolute;
+    background-color: red;
+    right: 10%;
+    top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+	position: absolute;
+	height: 10vh;
+	bottom:0vh;
+
+}
+
+
+footer h2{
+	position: absolute;
+	top: 20px;
+	left: 45%;
+}
+
+
+/*Registration styling*/
+.containerReg {  
+  padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+.hello {  
+            padding: 10px 0;  
+ }  
+
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+
+.address1{
+    width: 40%;
+    padding: 0;
+    background-color: lightblue;
+    display: inline-block;
+}
+
+.address2{
+    width: 40%;
+    padding: 0;
+    background-color: lightblue;
+    float: right;
+}
+
+/*login page*/
+ .containerLogin {   
+        padding: 50px;   
+        background-color: lightblue;  
+    } 
+
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }      
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ 
