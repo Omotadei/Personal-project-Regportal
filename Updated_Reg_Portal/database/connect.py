@@ -1,15 +1,19 @@
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import time
+import os
 
-
+database = os.environ.get('POSTGRES_DB')
+user = os.environ.get('POSTGRES_USER')
+password = os.environ.get('POSTGRES_PASSWORD')
+host = os.environ.get('host')
 
 def connect():
     while True:
         try:
             # Connect to an existing database
             print("CONNECTING TO DATABASE")
-            conn = psycopg2.connect(host="postgress",database="registration",user="postgres",password="tadedatapost",cursor_factory=RealDictCursor)
+            conn = psycopg2.connect(host=host, database=database, user=user, password=password,cursor_factory=RealDictCursor)
 
             cursor = conn.cursor()
             print("DATABASE CONNECTION WAS SUCCESSFUL!!!")

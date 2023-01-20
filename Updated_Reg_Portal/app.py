@@ -5,8 +5,8 @@ import json
 
 app = Flask(__name__)
 
-#conn = connect.connect()
-#cursor = conn.cursor()
+conn = connect.connect()
+cursor = conn.cursor()
 
 @app.route('/')
 def home():
